@@ -77,10 +77,10 @@ export default function MenuBar() {
             color="inherit"
             aria-label="open drawer"
           >
-            <MenuIcon />
+        <MenuIcon />
           </IconButton>
           <Typography className={classes.title} variant="h6" noWrap>
-            Danilo Roque
+            
           </Typography>
           <div className={classes.search}>
             <div className={classes.searchIcon}>
@@ -92,7 +92,7 @@ export default function MenuBar() {
                 root: classes.inputRoot,
                 input: classes.inputInput,
               }}
-              inputProps={{ 'aria-label': 'Pesquisar' }}
+              inputProps={{ 'aria-label': 'search' }}
             />
           </div>
         </Toolbar>
